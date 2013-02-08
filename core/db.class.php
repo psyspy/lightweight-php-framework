@@ -6,7 +6,7 @@
 		private $result = null;
 		private $prefix = null;
 		
-		public function __construct($host, $user, $db, $password = '', $type = 'mysql', $prefix = 'spf_'){
+		public function __construct($host, $user, $db, $password = '', $type = 'mysql', $prefix = 'lpf_'){
 		
 			$this->connection = new PDO($type.':dbname='.$db.';host='.$host,$user,$password);
 			$this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
