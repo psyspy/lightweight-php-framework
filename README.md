@@ -1,5 +1,5 @@
-lightweight-php-framework
-=========================
+lightweight-php-framework v0.1
+==============================
 
 Small php-Framework including Templates, Usersystem, Pluginsystem, JQuery and Bootstrap - NOT MORE
 
@@ -12,6 +12,7 @@ Includes:
 * Class for PDO-Database-Connection
 
 Needs to be done:
+* Completetion of all classes
 * Errorhandling
 * Comments
 * Helperclasses
